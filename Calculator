@@ -1,0 +1,25 @@
+def Add(number1,number2):
+    return (number1+number2)
+
+def Subtract(number1,number2):
+    return (number1-number2)
+
+def Multiply(number1,number2):
+    return (number1*number2)
+
+def Devision(number1,number2):
+    return (number1/number2)
+
+firstNum = int(input("Enter First Number"))
+secondNum = int(input("Enter Second Number"))
+
+totalAdditionValue = Add(firstNum,secondNum)
+totalSubtractValue = Subtract(firstNum,secondNum)
+totalMultiplyValue = Multiply(firstNum,secondNum)
+totalDevisionValue = Devision(firstNum,secondNum)
+
+print("Additional: ",totalAdditionValue)
+print("Substraction: ",totalSubtractValue)
+print("Multiplication: ",totalMultiplyValue)
+print("Devision: ",totalDevisionValue)
+
